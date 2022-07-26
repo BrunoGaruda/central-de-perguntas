@@ -71,3 +71,27 @@ button,
   height: 1px;
   line-height: 0;
 }
+
+/* https://bennettfeely.com/clippy/ */
+
+/* *** Criando as bolas *** */
+
+.ball {
+  width: 21.2rem;
+  height: 21.2rem;
+  clip-path: circle();
+  background: var(--blue);
+  position: fixed;
+
+  opacity: 0.1;
+}
+.ball.top {
+  top: -46rem;
+  width: 63.3rem;
+  right: -35rem;
+  height: 63.3rem;
+}
+.ball.botton {
+  bottom: -15rem;
+  right: 4.6rem;
+}
