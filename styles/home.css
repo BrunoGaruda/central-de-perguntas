@@ -17,6 +17,7 @@ header {
 
   /* top/contain coloca a imagem de tamalho completo ajustando ao container */
   background: url(/assets/Ilustração.svg) no-repeat top/contain;
+  background-position-x: -10rem;
 }
 
 main {
@@ -24,10 +25,11 @@ main {
 
   display: flex;
   align-items: center;
+  margin-top: -22rem;
 }
 
 main .container {
-  width: min(36.3rem 100%);
+  width: min(36.3rem, 100%);
 }
 
 main h2 {
@@ -47,4 +49,25 @@ button,
 .button {
   width: 100%;
   margin-bottom: 1.8rem;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.separator div:nth-child(2) {
+  color: var(--gray-blue);
+  font-family: var(--poppins);
+  font-weight: 400;
+  padding: 0 1.35rem;
+}
+
+.separator div:nth-child(1),
+.separator div:nth-child(3) {
+  background: var(--grey-blue);
+  width: 100%;
+  height: 1px;
+  line-height: 0;
 }
