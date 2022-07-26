@@ -16,7 +16,7 @@ header {
   grid-area: left;
 
   /* top/contain coloca a imagem de tamalho completo ajustando ao container */
-  background: url(/assets/Ilustração.svg) no-repeat top/contain;
+  background: url(/assets/home-bg-img.svg) no-repeat top/contain;
   background-position-x: -10rem;
 }
 
