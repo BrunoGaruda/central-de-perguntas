@@ -1,0 +1,24 @@
+{
+  "name": "central-de-perguntas",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas em forma de Quis para integração do banco de dados com Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoGaruda/central-de-perguntas.git"
+  },
+  "keywords": [],
+  "author": "Bruno Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoGaruda/central-de-perguntas/issues"
+  },
+  "homepage": "https://github.com/BrunoGaruda/central-de-perguntas#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
