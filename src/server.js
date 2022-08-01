@@ -8,6 +8,9 @@ const server = express()
 //view engine será o ejs
 server.set('view engine', 'ejs')
 
+//Caminho pra pasta Public
+server.use(express.static('public'))
+
 //path: caminho do projeto. join: junta o caminho do projeto com __dirname(src/) com "views"
 server.set('views', path.join(__dirname, 'views'))
 
