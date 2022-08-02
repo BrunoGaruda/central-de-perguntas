@@ -31,3 +31,7 @@ or
 },
 
 terminal: npm start
+
+# Dependência pra ajudar no desenvolvimento
+
+npm install nodemon -D
