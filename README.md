@@ -22,16 +22,33 @@ npm install express
 
 server.js (servidor)
 
+# packcage.json
+
 node src/server.js
 
 or
 
 "scripts": {
-"start": "node src/server.js" in package.json
+"start": "node src/server.js"
 },
 
 terminal: npm start
 
 # Dependência pra ajudar no desenvolvimento
 
+# packcage.json
+
 npm install nodemon -D
+funciona como um live-server onde não se precisa fechar e reabrir a aplicação para ver as alterações
+
+"scripts": {
+"start": "nodemon src/server.js" in package.json
+},
+
+or
+
+"scripts": {
+"start": "nodemon ."
+},
+
+"main": "src/server.js",
