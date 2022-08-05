@@ -4,7 +4,7 @@
   "description": "Projeto desenvolvido para gerenciar perguntas em forma de Quis para integração do banco de dados com Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
