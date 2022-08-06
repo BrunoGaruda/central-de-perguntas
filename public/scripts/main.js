@@ -11,3 +11,11 @@ checkButtons.forEach(button => {
     modal.open()
   })
 })
+
+const deleteButton = document.querySelector('.actions a.delete')
+
+deleteButton.forEach(button => {
+  button.addEventListener('click', events => {
+    modal.open()
+  })
+})
