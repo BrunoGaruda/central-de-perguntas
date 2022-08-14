@@ -14,6 +14,9 @@ server.use(express.static('public'))
 //path: caminho do projeto. join: junta o caminho do projeto com __dirname(src/) com "views"
 server.set('views', path.join(__dirname, 'views'))
 
+// middleware vai decodificar antes de passar para o controller
+server.use(express.urlencoded({ extended: true }))
+
 server.use(route)
 
 //Passando uma porta(servidor)
