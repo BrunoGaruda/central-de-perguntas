@@ -22,7 +22,9 @@
   </head>
   <body>
     <div id="home" class="content">
-      <header><img src="images/Logo.svg" alt="logo Rocket.Q" /></header>
+      <header>
+        <a href="/"><img src="/images/logo.svg" alt="logo Rocket.Q" /></a>
+      </header>
 
       <div id="bg">
         <div class="ball top"></div>
@@ -32,7 +34,7 @@
       <main>
         <div class="container">
           <!-- vai renderizar a parte correta de acordo com a URL-->
-          <%- include(`parts/${pages}`) %>
+          <%- include(`parts/${page}`) %>
         </div>
       </main>
     </div>
