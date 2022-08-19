@@ -52,3 +52,7 @@ or
 },
 
 "main": "src/server.js",
+
+npm install sqlite
+
+npm install sqlite3
