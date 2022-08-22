@@ -56,3 +56,8 @@ or
 npm install sqlite
 
 npm install sqlite3
+
+on package.json
+"scripts": {
+"init-db": "node src/db/init.js"
+}
